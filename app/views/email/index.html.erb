@@ -1,0 +1,12 @@
+<body>
+  <h1>Viewer</h1><table>
+     <tr>
+        <th>Object</th>
+        <th>Body</th>
+     </tr>  <% @emails.each do |x| %>
+     <tr>
+        <td><%=x.object%></td>
+        <td><%=x.body%></td>
+     </tr>    <%  end %>
+   </table>
+</body>

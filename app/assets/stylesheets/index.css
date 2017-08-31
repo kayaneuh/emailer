@@ -1,0 +1,14 @@
+#container {
+  width: 100%;
+  display: flex;
+}
+
+#colonnegauche {
+  width: 40%;
+  background-color: blue;
+}
+
+#colonnedroite {
+  width: 60%;
+  background-color: lightblue;
+}
